@@ -62,7 +62,7 @@ com.example.enrollment.course
 ├── dto              // DTO objects for presenting to the end user
 ├── exception        // Exception handlers for errors and invalid user input
 ├── mapper           // Converts model objects to DTO objects and vice-versa
-├── model            // POJOs representing Trains, Travellers, Tickets
+├── entity           // Entities ORM to respective Tables in the database
 ├── repository       // In-memory data storage using Java Collections
 ├── service          // Business Logic Layer
 ├── courseLoader     // Creates a course list using CommandLineRunner
@@ -93,7 +93,7 @@ com.example.enrollment.course
 
 ✅ Demonstrates practical use of:
 - Spring Boot REST architecture  
-- In-memory data repositories using Java collection framework (`HashMap`, `Queue`, `Set`, `List`) 
+- Implemented Spring Data JPA to connect with MySql database Server 
 - Layered coding practices (Controller, Service, Repository)  
 - DTO pattern with mapping logic  
 - Exception handling using `@ControllerAdvice`  
