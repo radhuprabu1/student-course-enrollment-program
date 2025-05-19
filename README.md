@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-17-blue?logo=java)](https://www.java.com/)
 [![Spring Boot](https://img.shields.io/badge/SpringBoot-3-green?logo=spring)](https://spring.io/projects/spring-boot)
 [![Build](https://img.shields.io/badge/Build-Maven-blue?logo=apachemaven)](https://maven.apache.org/)
-[![Status](https://img.shields.io/badge/Database-InMemory-yellow)](#)
+[![Status](https://img.shields.io/badge/Database-MySql-yellow)](#)
 [![Tested With](https://img.shields.io/badge/Tested%20With-Postman-orange?logo=postman)](https://www.postman.com/)
 
 ## 📋 Project Overview
@@ -63,7 +63,7 @@ com.example.enrollment.course
 ├── exception        // Exception handlers for errors and invalid user input
 ├── mapper           // Converts model objects to DTO objects and vice-versa
 ├── entity           // Entities ORM to respective Tables in the database
-├── repository       // In-memory data storage using Java Collections
+├── repository       // Utilizes Spring Data JPA with MySQL database for persistent entity mapping and repository abstraction
 ├── service          // Business Logic Layer
 ├── courseLoader     // Creates a course list using CommandLineRunner
 └── StudentCourseRegistrationProgramApplication.java  // Main Spring Boot Application
