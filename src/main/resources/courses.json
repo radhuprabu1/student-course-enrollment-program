@@ -1,0 +1,30 @@
+[
+    {
+        "courseName": "Core Java",
+        "duration": "1 month",
+        "courseId": 101,
+        "fees": 3000.0,
+        "availableSeats": 2
+    },
+    {
+        "courseName": "Java - Spring Boot",
+        "duration": "3 months",
+        "courseId": 102,
+        "fees": 4500.0,
+        "availableSeats": 3
+    },
+    {
+        "courseName": "SQL - Basics",
+        "duration": "3 weeks",
+        "courseId": 103,
+        "fees": 2000.0,
+        "availableSeats": 5
+    },
+        {
+        "courseName": "DSA",
+        "duration": "1 month",
+        "courseId": 101,
+        "fees": 4000.0,
+        "availableSeats": 2
+    }
+]

@@ -1,0 +1,75 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore build artifacts
+/target/
+/out/
+/bin/
+
+# Ignore dependencies (if using Maven or Gradle)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+/.mvn/
+/.gradle/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Ignore sensitive config files
+application.yml
+.env
+
+# Ignore IDE and Build System Files
+.settings/
+.classpath
+.factorypath
+.project
+
+# Ignore Build and Output Folders
+target/
+output.json
+
+# Ensure README.md and courses.json are tracked
+!README.md
+!src/main/resources/courses.json
